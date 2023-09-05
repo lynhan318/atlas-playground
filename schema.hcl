@@ -15,8 +15,7 @@ table "users" {
   }
   column "bio"{
     type = text
-    unique = true
-  }
+  } 
   primary_key {
     columns = [column.id]
   }
